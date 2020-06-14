@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.testtask.views.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.testtask.views.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_chart_action"
+            app:destination="@id/chart_action" />
+        <action
+            android:id="@+id/action_menuFragment_to_actionForToday"
+            app:destination="@id/actionForToday" />
+    </fragment>
+    <fragment
+        android:id="@+id/chart_action"
+        android:name="com.example.testtask.views.ChartAction"
+        android:label="fragment_chart_action"
+        tools:layout="@layout/fragment_chart_action" />
+    <fragment
+        android:id="@+id/actionForToday"
+        android:name="com.example.testtask.views.ActionForToday"
+        android:label="fragment_action_for_today"
+        tools:layout="@layout/fragment_action_for_today" />
+</navigation>

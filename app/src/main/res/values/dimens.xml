@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeTV">20sp</dimen>
+    <dimen name="heightTV">30dp</dimen>
+    <dimen name="widthTV">40dp</dimen>
+</resources>

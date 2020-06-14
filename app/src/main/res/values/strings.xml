@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="scan_finger">Отсканируйте палец</string>
+    <string name="action_for_today">Активность за сегодня</string>
+    <string name="chart_action">График активности</string>
+    <string name="went_steps">Пройдено шагов за сегодня: %d </string>
+    <string name="steps">ш\nа\nг\nи</string>
+    <string name="Days">дни</string>
+    <string name="menuFragment">Меню</string>
+</resources>
